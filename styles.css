@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name         	TidyW2G
-@namespace		CESP
-@author 		MaxPtg
-@original     	Joschy42
-@description  	Generally tidying up Watch2Gether
+@name         	Tidy-W2G
+@namespace	CESP
+@author 	Joschy42	
+@modified     	MaxPtg
+@description  	Generally tidying up Watch2Gether and removing bloat
 @version      	1.0
 @license      	NONE
 @preprocessor 	uso
@@ -125,7 +125,7 @@
 
 .w2g-color-wrapper {
 	display: block !important;
-	min-height: calc(113vh);
+	min-height: calc(100vh - 400px);
 	padding: 0;
 }
 .w2g-scroll-vertical {
@@ -156,17 +156,9 @@ a[href='https://w2g.tv/upgrade'] {
 	display: none;
 }
 
-
-	
-/* Search results */
-	/* Hide no results message*/
-	#w2g-search-results div:nth-child(10) {
-		display: none;
-	}
-	
-	#w2g-search-results {
-		height: 240px
-	}
-
+/* Make userbar transparent */
+#userbar {
+	background: transparent !important;
+}
 
 }
