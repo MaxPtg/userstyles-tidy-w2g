@@ -8,4 +8,4 @@ You just need to install [Userstyles (Firefox)](https://addons.mozilla.org/en-US
 
 ## Preview
 
-![Preview](images/preview.jpg)
+![Preview](images/preview.png)
